@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+  <defs>
+    <style>
+      .dark { fill:#12324a; stroke:#12324a; }
+      .line { fill:none; stroke:#12324a; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; }
+      .text1 { font: 700 42px Arial, sans-serif; fill:#12324a; }
+      .text2 { font: 400 18px Arial, sans-serif; fill:#3b5f78; letter-spacing:1px; }
+    </style>
+  </defs>
+
+  <!-- chip -->
+  <rect x="40" y="40" width="160" height="160" rx="18" class="line"/>
+
+  <!-- microfluidic channels -->
+  <path d="M65 120 H95 V85 H145 V120 H175" class="line"/>
+  <path d="M65 140 H95 V175 H145 V140 H175" class="line"/>
+
+  <!-- stylized lungs integrated into chip -->
+  <path d="M120 85
+           C95 85,80 105,80 128
+           C80 155,98 172,120 176
+           Z" fill="#12324a"/>
+  <path d="M120 85
+           C145 85,160 105,160 128
+           C160 155,142 172,120 176
+           Z" fill="#12324a"/>
+  <rect x="116" y="72" width="8" height="28" class="dark"/>
+
+  <!-- connection traces -->
+  <line x1="200" y1="120" x2="260" y2="120" class="line"/>
+  <circle cx="230" cy="120" r="6" class="dark"/>
+
+  <!-- text -->
+  <text x="285" y="115" class="text1">Translational Organ Microsystems</text>
+  <text x="285" y="150" class="text2">ORGAN-ON-CHIP • BIOFABRICATION • TRANSLATION TO CLINIC</text>
+</svg>
