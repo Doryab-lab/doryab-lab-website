@@ -190,7 +190,6 @@
 				{ type: "image", src: "images/hero3.jpg", duration: 5000 },
 
 				{ type: "image", src: "images/hero4.jpg", duration: 5000 },
-				{ type: "video", src: "images/video1.mp4", duration: 12000 },
 				
 				{ type: "image", src: "images/hero5.jpg", duration: 5000 },
 
@@ -246,31 +245,6 @@
 			showMedia(0);
 
 			</script>
-			<script>
-
-			const images = [
-				"images/hero1.jpg",
-				"images/hero2.jpg",
-				"images/hero3.jpg",
-				"images/hero4.jpg"
-			];
-
-			let i = 0;
-
-			setInterval(() => {
-
-				i = (i + 1) % images.length;
-
-				const hero = document.getElementById("hero");
-
-				hero.style.backgroundImage = `url('${images[i]}')`;
-
-				// reset zoom each change
-				hero.style.backgroundSize = "110%";
-
-			}, 6000);
-
-</script>
 <script>
 
 let index = 0;
