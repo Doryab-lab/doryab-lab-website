@@ -3869,7 +3869,7 @@ input, select, textarea {
 
 #footer-minimal {
     margin-top: 2rem;
-    padding: 1.8rem 2rem 1rem;
+    padding: 2rem 2rem 1rem;
 
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
@@ -3888,8 +3888,8 @@ input, select, textarea {
     margin-bottom: 1rem;
 
     color: #666666;
-    font-size: 0.8rem;
-    line-height: 1.5;
+    font-size: 1.05rem;
+    line-height: 1.6;
     text-align: center;
 }
 
@@ -3911,21 +3911,21 @@ input, select, textarea {
 .footer-logos .uni-logo {
     display: block;
 
-    width: 85px !important;
-    height: 32px !important;
+    width: 100px !important;
+    height: 45px !important;
 
     object-fit: contain;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .footer-logos .fmz-logo {
     display: block;
 
-    width: 70px !important;
-    height: 32px !important;
+    width: 100px !important;
+    height: 45px !important;
 
     object-fit: contain;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .footer-logos img {
@@ -3937,10 +3937,10 @@ input, select, textarea {
 }
 
 .footer-copyright {
-    margin: 0;
+    margin: 0.8rem 0 0;
 
     color: #999999;
-    font-size: 0.65rem;
+    font-size: 1.0rem;
     text-align: center;
 }
 
@@ -3964,7 +3964,7 @@ body {
 }
 
 #main {
-    flex: 1;
+    flex: 0 0 auto;
 }
 
 
@@ -4087,4 +4087,18 @@ body {
     .footer-copyright {
         font-size: 0.6rem;
     }
+}
+/* ---------- Homepage spacing fix ---------- */
+
+body.home-page #main {
+    padding-bottom: 0 !important;
+    flex: 0 0 auto !important;
+}
+
+body.home-page .news-section {
+    padding-bottom: 1rem;
+}
+
+body.home-page #footer-minimal {
+    margin-top: 0 !important;
 }
