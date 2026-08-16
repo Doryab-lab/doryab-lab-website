@@ -4373,3 +4373,33 @@ body {
     }
 
 }
+/* News page spacing */
+
+#main .inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.news-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.news-entry {
+    margin-left: 0;
+    margin-right: 0;
+}
+/* News page overall alignment */
+
+.news-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.news-page-container .news-list {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
