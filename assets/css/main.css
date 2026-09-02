@@ -4102,3 +4102,55 @@ body.home-page .news-section {
 body.home-page #footer-minimal {
     margin-top: 0 !important;
 }
+.position-announcement h3 {
+	margin-top: 2em;
+	margin-bottom: 0.65em;
+}
+
+.position-announcement h3:first-of-type {
+	margin-top: 1.5em;
+}
+
+.position-announcement p {
+	margin-bottom: 1em;
+}
+
+.position-announcement hr {
+	margin: 2em 0;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.phd-deadline {
+	margin-top: 1.5em;
+	padding: 1em 1.25em;
+	background: rgba(0, 150, 150, 0.05);
+	border-left: 3px solid #009999;
+}
+
+.phd-deadline p {
+	margin: 0;
+}
+
+.position-contact {
+	margin-bottom: 0;
+	font-size: 1.05em;
+}
+/* Positions page spacing */
+#main {
+	padding-bottom: 0;
+}
+
+#main > .inner {
+	padding-bottom: 2em;
+}
+
+.position-announcement {
+	margin-bottom: 0;
+}
+
+#footer-minimal {
+	margin-top: 0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
