@@ -4154,3 +4154,26 @@ body.home-page #footer-minimal {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+/* Positions page - short page layout */
+body.positions-page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+body.positions-page #wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+body.positions-page #main {
+	flex: 1;
+	min-height: 0 !important;
+	padding-bottom: 0;
+}
+
+body.positions-page #footer-minimal {
+	margin-top: auto;
+}
