@@ -4177,3 +4177,111 @@ body.positions-page #main {
 body.positions-page #footer-minimal {
 	margin-top: auto;
 }
+
+
+/* =========================================
+   TEAM BIOGRAPHY - READ MORE
+   ========================================= */
+
+.team-bio {
+    margin-bottom: 0.35rem;
+}
+
+/* Biography preview */
+
+.team-bio-preview {
+    margin: 0 0 0.4rem 0 !important;
+    padding: 0;
+    text-align: justify;
+    line-height: 1.7;
+    text-justify: inter-word;
+    hyphens: auto;
+}
+
+
+/* Full biography */
+.team-bio-full {
+    margin: 0;
+}
+
+.team-bio-full p {
+    margin-bottom: 0.9rem;
+    line-height: 1.7;
+}
+
+/* Hide inactive biography */
+.team-bio-preview[hidden],
+.team-bio-full[hidden] {
+    display: none !important;
+}
+
+/* Read more / Read less link */
+.team-info .team-read-more {
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    min-height: 0;
+
+    margin: 0.2rem 0 0.7rem 0;
+    padding: 0 0 3px 0;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #168f91;
+    border-radius: 0;
+    box-shadow: none;
+
+    font-family: inherit;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    text-transform: none;
+
+    color: #168f91;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.team-info .team-read-more:hover {
+    color: #0b6668;
+    border-bottom-color: #0b6668;
+    background: transparent;
+    box-shadow: none;
+}
+
+.team-info .team-read-more:focus-visible {
+    outline: 2px solid #168f91;
+    outline-offset: 4px;
+}
+
+
+/* Spacing before research interests */
+.team-bio + strong {
+    display: block;
+    margin-top: 0.25rem;
+    margin-bottom: 0.4rem;
+}
+
+
+/* OUR TEAM IS GROWING */
+
+.team-growing h2 {
+    margin: 0 0 1.2rem 0 !important;
+}
+
+.team-growing p {
+    margin: 0 0 0.8rem 0 !important;
+    padding: 0;
+    line-height: 1.65;
+}
+
+.team-growing p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.team-growing {
+    padding-bottom: 1.5rem;
+}
+
